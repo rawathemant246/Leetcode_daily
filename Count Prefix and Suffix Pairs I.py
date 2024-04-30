@@ -16,6 +16,7 @@ class Solution(object):
         N = len(words)
         
         
+        
         count = 0
         
         
@@ -30,5 +31,13 @@ class Solution(object):
                     
         return count
     
-    
+
+
+words = ["a","aba","ababa","aa"]
+
+test1 = Solution()
+
+result = test1.countPrefixSuffixPairs(words)
+
+print(result)
     
