@@ -7,3 +7,6 @@ class solution:
         return sum(i==0 for i in accumulate(nums))
     
         
+        
+        #comment
+        
