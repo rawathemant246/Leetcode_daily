@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def minimumBoxes(self, apple: List[int], capacity: List[int]) -> int:
         # Step 1: Calculate the total number of apples
