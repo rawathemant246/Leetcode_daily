@@ -23,3 +23,5 @@ class Palindrome(object):
 solution = Palindrome()
 result = solution.palindrome(141)
 print(result)
+
+###
