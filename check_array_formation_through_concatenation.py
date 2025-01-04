@@ -3,11 +3,13 @@ from typing import List
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
         d = {x[0]: x for x in pieces}
+        #print(d)
         i=0
         while i < len(arr):
             if arr[i] not in d:
                 return False
             piece = d[arr[i]]
+            print(piece)
             for x in piece:
                 if x != arr[i]:
                     return False
