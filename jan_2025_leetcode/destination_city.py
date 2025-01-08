@@ -14,3 +14,5 @@ if __name__ == "__main__":
     paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
     sol = Solution()
     print(sol.destCity(paths))
+
+#test this 
