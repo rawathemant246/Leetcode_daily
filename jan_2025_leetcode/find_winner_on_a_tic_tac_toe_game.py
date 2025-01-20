@@ -32,7 +32,7 @@ class Solution:
             row, col = move
             
             
-            if i % 2 == 0:  
+            if i % 2 == 0:      # yeh index idea aaise kaam krta hai ki [0,0],[2,0],[1,1],[2,1],[2,2]  index 0 pe move [0,0] hai toh 0%2 = 0 so 'X' move
                 grid[row][col] = 'X'
             else:  
                 grid[row][col] = 'O'
