@@ -20,3 +20,5 @@ if __name__ == "__main__":
     print(test.checkIfExist([10,2,5,3]))
     print(test.checkIfExist([7,1,14,11]))
     print(test.checkIfExist([3,1,7,11]))
+    
+# check this results
