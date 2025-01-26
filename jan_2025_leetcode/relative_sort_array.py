@@ -1,5 +1,14 @@
+'''
+To maintain the relative order 
+
+1. Create a dictionary d with key as the element and value as the index of the element in arr2
+2. Sort the arr1 based on the index of the element in arr2
+3. If the element is not present in arr2, then assign the index as the length of arr2
+4. Return the sorted arr1
+
+'''
+
 from typing import List
-from collections import Counter
 
 
 class Solution:
