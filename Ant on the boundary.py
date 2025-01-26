@@ -8,5 +8,12 @@ class solution:
     
         
         
-        #comment
+if __name__ == "__main__":
+    test = solution()
+    print(test.antonboundary([1,1,0,0,1,1,1,0,1]))
+    print(test.antonboundary([1,1,1,1,1,1,1,1,1]))
+    print(test.antonboundary([1,0,1,0,1,0,1,0,1]))
+    print(test.antonboundary([0,0,0,0,0,0,0,0,0]))
+    print(test.antonboundary([1,1,1,1,0,0,0,0,0]))
+    print(test.antonboundary([1,1,1,1,1,1,1,1,1]))
         

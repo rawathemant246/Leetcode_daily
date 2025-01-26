@@ -48,6 +48,6 @@ if __name__ == "__main__":
     arr = [1,2]
     print(Solution().uniqueOccurrences(arr)) # False
     arr = [-3,0,1,-3,1,1,1,-3,10,0]
-    print(Solution().uniqueOccurrences(arr
+    print(Solution().uniqueOccurrences(arr)) # True
         
         
