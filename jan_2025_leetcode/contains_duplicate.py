@@ -1,3 +1,31 @@
+'''
+Problem : 
+
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+Given : nums : List[int]
+return : bool
+
+How to solve this problem?
+
+Approach 1.:
+
+1. Create a dictionary to store the frequency of the elements in the list.
+2. Iterate through the dictionary and checks if the count of any element is greater than 1.
+3. if the count of any element is greater than 1 then return True
+4. If we are not able to find any such element then return False
+
+Approach 2.:
+
+1. Create a empty set seen.
+2. Iterate through the list
+3. Check if the number is already in the set
+4. If the number is already in the set then return True
+5. If the number is not in the set then add the number to the set
+6. If we are not able to find any such element then return False
+'''
+
+
 from typing import List
 from collections import Counter
 
