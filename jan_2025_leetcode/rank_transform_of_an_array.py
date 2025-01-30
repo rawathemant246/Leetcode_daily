@@ -12,3 +12,5 @@ if __name__ == "__main__":
     arr = [40,10,20,30]
     s = Solution()
     print(s.arrayRankTransform(arr))
+
+# Time complexity: O(nlogn)
