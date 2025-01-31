@@ -41,8 +41,7 @@ class Solution:
         if not votes:
             return ""
         
-        # Extract the list of teams from the first vote
-        teams = list(votes[0])
+        teams = list(votes[0])  # Extract the team names from the first vote
         num_teams = len(teams)
         
         # Initialize a dictionary to hold the vote counts for each position for each team
