@@ -79,6 +79,7 @@ class Solution1:
         result = ""
         
         strs = sorted(strs)
+        print(strs)
         
         first = strs[0]
         last = strs[-1]
