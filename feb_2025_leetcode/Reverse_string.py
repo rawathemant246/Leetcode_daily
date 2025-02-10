@@ -29,7 +29,6 @@ two pointer approach:
 3. Move the left pointer to the right and the right pointer to the left.
 4. Continue swapping characters until the pointers meet.
 
-
 '''
 
 from typing import List 
