@@ -41,3 +41,44 @@ class Solution2:
 
 # Another Approach is using KMP Algorithm
 
+def computeLPS(needle):
+    lps = [0] * len(needle)  # Initialize LPS array
+    length = 0  # Length of previous longest prefix suffix
+    i = 1
+    
+    while i < len(needle):
+        if needle[i] == needle[length]:
+            length += 1
+            lps[i] = length
+            i += 1
+        else:
+            if length != 0:
+                length = lps[length - 1]  # Use previous LPS value
+            else:
+                lps[i] = 0
+                i += 1
+    return lps
+
+def KMP_search(haystack, needle):
+    if not needle:
+        return 0  # Edge case: empty needle
+    
+    lps = computeLPS(needle)  # Step 1: Compute LPS array
+    i = 0  # Pointer for haystack
+    j = 0  # Pointer for needle
+    
+    while i < len(haystack):
+        if haystack[i] == needle[j]:
+            i += 1
+            j += 1
+        if j == len(needle):  # Found needle in haystack
+            return i - j
+        elif i < len(haystack) and haystack[i] != needle[j]:
+            if j != 0:
+                j = lps[j - 1]  # Skip using LPS
+            else:
+                i += 1  # Move haystack pointer if no match
+    
+    return -1  # Needle not found
+
+
