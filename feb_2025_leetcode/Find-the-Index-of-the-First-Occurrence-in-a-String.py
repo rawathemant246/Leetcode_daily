@@ -79,6 +79,8 @@ def KMP_search(haystack, needle):
             else:
                 i += 1  # Move haystack pointer if no match
     
-    return -1  # Needle not found
+    return -1  # Needle not found 
+
+# Time complexity: O(n + m) where n is the length of haystack and m is the length of needle
 
 
