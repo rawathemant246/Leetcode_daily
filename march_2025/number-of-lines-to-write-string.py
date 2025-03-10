@@ -28,7 +28,7 @@ a            // 4 pixels wide
 There are a total of 2 lines, and the last line is 4 pixels wide.
 
 '''
-
+from typing import List
 class Solution:
     def numberOfLines(self, widths: List[int], s: str) -> List[int]:
         line, current_width =1,0
