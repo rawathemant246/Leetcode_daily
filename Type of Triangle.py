@@ -48,4 +48,12 @@ class solution:
             return "Isosceles"
         
         return "Scalene"
-        
+
+if __name__ == "__main__":
+    a = solution()
+    print(a.TriangleType([3,3,3]))
+    print(a.TriangleType([3,4,5]))
+    print(a.TriangleType([1,2,3]))
+    print(a.TriangleType([2,2,3]))
+    print(a.TriangleType([1,2,2]))
+    print(a.TriangleType([1,1,1]))
