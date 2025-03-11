@@ -57,3 +57,4 @@ if __name__ == "__main__":
     print(a.TriangleType([2,2,3]))
     print(a.TriangleType([1,2,2]))
     print(a.TriangleType([1,1,1]))
+    
