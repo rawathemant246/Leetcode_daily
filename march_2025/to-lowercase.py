@@ -16,7 +16,6 @@ Example 3:
 Input: s = "LOVELY"
 Output: "lovely"
 
-
 '''
 
 class Solution:
@@ -25,4 +24,7 @@ class Solution:
 
 solution = Solution()
 result = solution.tolowercase("Hello")
+print(result)
+
+result = solution.tolowercase("here")
 print(result)
