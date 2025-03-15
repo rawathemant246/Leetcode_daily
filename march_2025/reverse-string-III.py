@@ -21,4 +21,6 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
+    s = "Let's take LeetCode contest"
+    print(sol.reverseWords(s))
     
