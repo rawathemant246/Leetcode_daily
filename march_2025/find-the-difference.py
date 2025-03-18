@@ -30,7 +30,7 @@ class Solution:
 
 # Using XOR
 
-class Solution:
+class Solution1:
     def findTheDifference(self, s: str, t: str) -> str:
         res = 0
         for ch in s+t:
