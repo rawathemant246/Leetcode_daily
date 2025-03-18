@@ -29,7 +29,9 @@ class Solution:
 # Space complexity: O(n)
 
 # Using XOR
-
+# Since all characters in s and t cancel out except the extra one, XOR (^) is an efficient solution:
+# XOR of two same characters is 0, so the extra character will remain after XORing all characters.
+# XOR of two different characters is non-zero, so the extra character will remain after XORing all characters.
 class Solution1:
     def findTheDifference(self, s: str, t: str) -> str:
         res = 0
