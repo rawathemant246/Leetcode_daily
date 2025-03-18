@@ -1,4 +1,6 @@
-
+'''
+Print all the Prime numbers up to n using Sieve of Eratosthenes
+'''
 
 
 def sieve_of_eratosthenes(n):
