@@ -21,8 +21,6 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 use the two pointer approach to solve this problem. The two pointer approach is a really efficient technique which is especially useful for strings and arrays. The technique uses two pointers to traverse the string or array and is really useful when you need to find a contiguous subarray or substring.
 
-
-
 '''
 
 class Solution:
